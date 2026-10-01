@@ -1,0 +1,21 @@
+# 依赖
+node_modules/
+.npm/
+
+# 本地私密配置与密钥
+app/config.json
+.env
+.env.local
+
+# 产出与临时文件
+app/out/
+*.log
+logs/
+.DS_Store
+Thumbs.db
+
+# 私有资产外挂载荷（防误放）
+app/data/YuAE/
+YuAE-Profile-Addon/
+*.zip
+*.7z

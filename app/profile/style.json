@@ -1,0 +1,24 @@
+{
+  "style": {
+    "works": 0,
+    "totalChars": 0,
+    "avgSentenceLen": 12,
+    "avgParagraphLen": 30,
+    "dialoguePct": 20,
+    "narrativePerson": "第一人称",
+    "tagFreq": [
+      {
+        "name": "都市",
+        "count": 10
+      },
+      {
+        "name": "日常",
+        "count": 8
+      },
+      {
+        "name": "情感",
+        "count": 6
+      }
+    ]
+  }
+}

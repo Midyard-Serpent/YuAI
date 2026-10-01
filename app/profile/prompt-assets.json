@@ -1,0 +1,14 @@
+{
+  "stampedAt": "2026-09-28T14:01:27.439Z",
+  "files": {
+    "lib/prompt.js": "f6da3723e6699ca49d0c1efc19c5304c0249766522eb3a5de7f2e40be4017737",
+    "lib/workflow.js": "a456daf1b258bc7017a0abc67bc52cdf134108f7a5fb5f50fa9bcfbed65dda30",
+    "lib/patcher.js": "e1dd888ab3f0c05255550008ec86285a684829856d75f6648808950416d712b5",
+    "patches/patches.json": "24cc38ef0d5de19b3f104359307ef28e5c84f4e1f5a00bb3523f976f685d33de",
+    "patches/system-extra.md": "c64b0ca68ae19bd6911f603f8c3582b7fec0890e81decf378b5e0612c1ebe94b",
+    "profile/style-anchors.txt": "9ce733c1c57a321c9977abced80e1c4bd2dac305030292a78f80b69894ebcaf3",
+    "profile/style-avoid.txt": "0ec5c0796be1d199eba355d1f82dc3c97e38239805ed0bf2c675467aa0c99863",
+    "profile/model-dial.json": "d107d6eb4761933b3dd7fbf50d538572a8cbf5c19906d1efbf9379a56fcfb04c",
+    "profile/worldbook.json": "4be131c45eaf49255d6bced3804adf10418a5b98f0858bbad6c4dde69f017152"
+  }
+}

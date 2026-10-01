@@ -1,0 +1,37 @@
+{
+  "releases": [
+    {
+      "v": "v1",
+      "model": "deepseek-ai/Deepseek-V4-Flash",
+      "scores": [
+        {
+          "chapter": 2,
+          "temp": "冷",
+          "fscore": 86,
+          "short": 0.247,
+          "long": 0.222,
+          "dialogue": 0.154
+        },
+        {
+          "chapter": 4,
+          "temp": "温",
+          "fscore": 68,
+          "short": 0.179,
+          "long": 0.282,
+          "dialogue": 0.126
+        },
+        {
+          "chapter": 9,
+          "temp": "热",
+          "fscore": 76,
+          "short": 0.243,
+          "long": 0.185,
+          "dialogue": 0.121
+        }
+      ],
+      "ts": "2026-09-28T14:58:24.855Z",
+      "verdict": "stamp"
+    }
+  ],
+  "cursor": "v1"
+}

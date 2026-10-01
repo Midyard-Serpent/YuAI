@@ -1,0 +1,25 @@
+{
+  "gemini": {
+    "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "model": "gemini-2.5-flash",
+    "apiKeyEnv": "GEMINI_API_KEY",
+    "temperature": 0.85,
+    "maxOutputTokens": 8192,
+    "timeoutMs": 300000
+  },
+  "corpusDir": "data/sample_corpus",
+  "profileDir": "profile",
+  "outDir": "out",
+  "chunk": {
+    "targetChars": 900,
+    "overlapChars": 120
+  },
+  "retrieve": {
+    "topK": 14,
+    "maxCharsPerResult": 900
+  },
+  "generate": {
+    "outlineChapters": "auto",
+    "maxContextChars": 260000
+  }
+}

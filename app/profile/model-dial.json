@@ -1,0 +1,4 @@
+[
+  { "match": "gcli-gemini-3-flash", "dial": { "short": -6, "dialog": 3 }, "note": "provisional：N=1 方向偏正，待稳定复验" },
+  { "match": "gcli-gemini-3.1-pro", "dial": { "short": -6, "long": 6 }, "note": "provisional：评审/精修档，未做生成侧定案" }
+]

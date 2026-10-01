@@ -1,0 +1,19 @@
+{
+  "name": "yuae-simulator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "以 YuAE 作者语料为记忆、以 Gemini 3.1 Pro 为底座的长篇/短篇作者模拟代理",
+  "type": "commonjs",
+  "scripts": {
+    "profile": "node bin/build-profile.js",
+    "generate": "node bin/generate.js",
+    "preview": "node bin/generate.js --mock"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
