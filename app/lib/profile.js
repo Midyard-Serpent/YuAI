@@ -4,14 +4,7 @@ const { countChars, splitParagraphs, chunkText } = require('./corpus');
 
 // 系列归属规则：命中即归入该系列（用于加载对应世界观与角色卡）
 const SERIES_RULES = [
-  { key: '失格', label: '失格系列', test: (t) => /失格/.test(t) },
-  { key: '寄住女仆', label: '寄住女仆', test: (t) => /寄住女仆/.test(t) },
-  { key: '人造城区', label: '某人造城区系列', test: (t) => /人造城区|在逃人员|管理人员|归属系手环|欺凌者/.test(t) },
-  { key: '特雷森学院', label: '特雷森学院怪文书', test: (t) => /特雷森/.test(t) },
-  { key: '精灵小姐', label: '精灵小姐', test: (t) => /精灵小姐/.test(t) },
-  { key: '志异', label: '志异随笔集', test: (t) => /志异/.test(t) },
-  { key: '学妹', label: '学妹收入囊中', test: (t) => /学妹/.test(t) },
-  { key: 'Futa恋爱', label: '这样的恋爱会不会有些奇怪', test: (t) => /这样的恋爱/.test(t) }
+  { key: '示例', label: '通用示例系列', test: (t) => /示例/.test(t) }
 ];
 
 function detectSeries(title) {

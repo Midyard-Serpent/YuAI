@@ -93,7 +93,7 @@ async function main() {
 
   const bm25 = buildIndex(cfg);
 
-  // 系列名模糊匹配到 profile/series.json 里的规范名（--series 失格 → 失格系列）
+  // 系列名模糊匹配到 profile/series.json 里的规范名（--series 输入会被规范化为 profile 中的系列名）
   const seriesNames = (readJSON(path.join(cfg.profileDir, 'series.json'))?.series || []).map((s) => s.name);
   const resolveSeries = (input) => {
     if (!input) return input;

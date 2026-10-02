@@ -92,7 +92,7 @@ class GeminiClient {
       return json
         ? JSON.stringify({
             title: '掌中轻颤',
-            series: '失格',
+            series: '原创演示',
             premise: '微缩至指尖大小的青年被昔日温柔的女仆困在梳妆台玻璃罩下，在巨大的温热压迫中逐渐丧失反抗意志。',
             coreConflict: '绝对体型差距下的伪善庇护与冰冷支配',
             tags: ['缩小人', '巨大娘', '支配', '温柔残忍', '体型差'],

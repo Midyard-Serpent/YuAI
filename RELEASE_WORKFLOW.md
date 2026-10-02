@@ -123,7 +123,7 @@ node bin/generate.js --mock --topic "测试开源管线连通性"
 
 ### 步骤 5：人工发布终审 Checklist
 在执行 `git push` 前，逐项核对并打勾：
-- [ ] **敏感词与原文排查**：在 `YuAI-Git` 目录运行 `grep -r "失格"` 或搜索已知作品名，无真实小说片段命中。
+- [ ] **敏感词与原文排查**：在 `YuAI-Git` 目录运行敏感词检索（如已知系列名、作品标题、角色名等真实语料专有词），无真实小说片段命中。
 - [ ] **索引大小核查**：确认 `YuAI-Git/app/profile/index.json` 小于 10KB（禁止 4.9MB 真实切块入库）。
 - [ ] **密钥排查**：确认 `YuAI-Git/app/` 下不存在 `config.json`，仅有 `config.example.json`。
 - [ ] **构建产物排查**：确认 `out/` 目录为空，没有残存生成的小说 txt。

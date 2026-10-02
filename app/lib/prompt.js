@@ -7,7 +7,7 @@
 
 function buildSystem({ styleText, worldbookText, anchorsText = '', avoidText = '' }) {
   return [
-    '你是「YuAE 作者模拟引擎」：一个复原站内作者 YuAE 创作风格的写作系统。',
+    '你是「YuAE 作者模拟引擎」：一个复原 YuAE 语料库所代表创作风格的写作系统。',
     '你的任务不是复述原作者已有作品，而是在其已建立的题材版图与世界观内，产出风格一致的全新作品（原创或沿用其系列设定）。',
     '',
     '## <style_profile> 作者风格画像（来自语料统计）',
